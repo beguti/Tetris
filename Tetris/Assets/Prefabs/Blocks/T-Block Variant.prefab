@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 693344297397449566, guid: 9bb6894c571ce6641823c51b75cdf955, type: 3}
       propertyPath: m_Name
-      value: T-Block
+      value: T-Block Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1383893033610760891, guid: 9bb6894c571ce6641823c51b75cdf955, type: 3}
       propertyPath: m_Color.b
@@ -53,11 +53,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3029531321666437667, guid: 9bb6894c571ce6641823c51b75cdf955, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3029531321666437667, guid: 9bb6894c571ce6641823c51b75cdf955, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 3029531321666437667, guid: 9bb6894c571ce6641823c51b75cdf955, type: 3}
       propertyPath: m_LocalPosition.z
@@ -95,6 +95,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: T-Block
       objectReference: {fileID: 0}
+    - target: {fileID: 4896783757869407507, guid: 9bb6894c571ce6641823c51b75cdf955, type: 3}
+      propertyPath: ListPiece.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896783757869407507, guid: 9bb6894c571ce6641823c51b75cdf955, type: 3}
+      propertyPath: ListPiece.Array.data[0]
+      value: 
+      objectReference: {fileID: 5695505205937786707}
+    - target: {fileID: 4896783757869407507, guid: 9bb6894c571ce6641823c51b75cdf955, type: 3}
+      propertyPath: ListPiece.Array.data[1]
+      value: 
+      objectReference: {fileID: 1829686091160367221}
+    - target: {fileID: 4896783757869407507, guid: 9bb6894c571ce6641823c51b75cdf955, type: 3}
+      propertyPath: ListPiece.Array.data[2]
+      value: 
+      objectReference: {fileID: 4358577468525192551}
+    - target: {fileID: 4896783757869407507, guid: 9bb6894c571ce6641823c51b75cdf955, type: 3}
+      propertyPath: ListPiece.Array.data[3]
+      value: 
+      objectReference: {fileID: 5884653081352785613}
     - target: {fileID: 6504859782978891374, guid: 9bb6894c571ce6641823c51b75cdf955, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -129,3 +149,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bb6894c571ce6641823c51b75cdf955, type: 3}
+--- !u!4 &1829686091160367221 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2233405567552861323, guid: 9bb6894c571ce6641823c51b75cdf955, type: 3}
+  m_PrefabInstance: {fileID: 548030996348929278}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4358577468525192551 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4316199230440939929, guid: 9bb6894c571ce6641823c51b75cdf955, type: 3}
+  m_PrefabInstance: {fileID: 548030996348929278}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5695505205937786707 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5228820482924956589, guid: 9bb6894c571ce6641823c51b75cdf955, type: 3}
+  m_PrefabInstance: {fileID: 548030996348929278}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5884653081352785613 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6210608493451856435, guid: 9bb6894c571ce6641823c51b75cdf955, type: 3}
+  m_PrefabInstance: {fileID: 548030996348929278}
+  m_PrefabAsset: {fileID: 0}
