@@ -1593,7 +1593,7 @@ MonoBehaviour:
   - {fileID: 4619846188573182521, guid: 16a93496586996540bcd8270183fe91c, type: 3}
   - {fileID: 4930915663343344109, guid: 7694e76e345564f4dbb0dc6c89defba9, type: 3}
   - {fileID: 4399246829676686955, guid: 52382deb0f6e50c418307a7dfe6aaab9, type: 3}
-  IsOpenTest: 1
+  IsOpenTest: 0
   displayDataPrefabs: {fileID: 5545618033009726925, guid: 76c3ba2b9870bab46ab3cd3f02318738, type: 3}
 --- !u!4 &680671677
 Transform:
