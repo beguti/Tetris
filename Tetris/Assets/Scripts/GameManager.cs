@@ -174,11 +174,17 @@ public class GameManager : MonoBehaviour
                     }
                 }
 
-                //Coll Again
+                //Call Again
                 UpdateRemoveObjectController();
                 return;
             }
         }
+    }
+
+    public void OnGameOver()
+    {
+        Debug.Log("Game Over");
+        Time.timeScale = 0;
     }
 
 }

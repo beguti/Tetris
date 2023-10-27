@@ -9,7 +9,7 @@ public class MyBlockController : MonoBehaviour
 
     private void Start()
     {
-        GameManager.Instance.Current = this;
+        //GameManager.Instance.Current = this;
         StartCoroutine(MoveDown());
     }
 
@@ -30,12 +30,12 @@ public class MyBlockController : MonoBehaviour
                     int x = Mathf.RoundToInt(piece.position.x);
                     int y = Mathf.RoundToInt(piece.position.y);
 
-                    //if (y >= GameManager.Instance.Grid.GetLength(1))
-                    //{
-                    //    //GameOver
-                    //    GameManager.Instance.OnGameOver();
-                    //    yield break;
-                    //}
+                    if (y >= GameManager.Instance.Grid.GetLength(1))
+                    {
+                        //GameOver
+                        GameManager.Instance.OnGameOver();
+                        yield break;
+                    }
 
                     GameManager.Instance.Grid[x, y] = true;
                 }
